@@ -74,28 +74,18 @@ main {
 strong {
   color: rgb(201, 45, 45);
 }
-.row {
+
+.weather-forecast {
+  font-size: 16px;
   display: flex;
   justify-content: space-between;
 }
 
-.weather-forecast {
+.weather-forecast-temperatures {
+  display: flex;
   margin-bottom: 28px;
 }
-.dates {
-  font-size: 14px;
-  margin-left: 10px;
-  color: rgb(24, 4, 44);
-}
-.weather-forecast-tempreture {
-  font-size: 14px;
-  margin-left: 3px;
-}
 
-.forecast-min {
-  color: black;
-  opacity: 0.7;
-}
 footer {
   text-align: center;
   border-top: 1px solid rgb(243, 242, 229) 90%;
