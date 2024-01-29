@@ -73,6 +73,20 @@ main {
 }
 strong {
   color: rgb(201, 45, 45);
+  margin-right: 12px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: #370a52;
+  font-weight: 600;
+  opacity: 0.6;
+}
+.image-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .weather-forecast {
@@ -83,9 +97,14 @@ strong {
 
 .weather-forecast-temperatures {
   display: flex;
+  margin-left: 25px;
   margin-bottom: 28px;
+  text-align: center;
 }
-
+.weather-forecast-temperature {
+  color: grey;
+  opacity: 0.9;
+}
 footer {
   text-align: center;
   border-top: 1px solid rgb(243, 242, 229) 90%;
